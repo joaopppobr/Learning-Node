@@ -5,10 +5,10 @@ const os = require('os');
 const _ = require('lodash');
 const notes = require('./notes.js');
 
-var user = os.userInfo();
+//var user = os.userInfo();
 var res = notes.addNote();
 
-var filteredArray = _.uniq(['andrew', 'john', 'andrew']);
+var filteredArray = _.uniq(['andrew', 'john', 'bob']);
 console.log(filteredArray);
 //console.log(_.isString(res))
 //console.log(res);
