@@ -9,7 +9,8 @@
   "author": "Joao Pedro Oliveira",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
